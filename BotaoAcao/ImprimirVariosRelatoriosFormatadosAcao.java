@@ -16,7 +16,7 @@ import com.sankhya.util.SessionFile;
 import java.math.BigDecimal;
 import java.util.*;
 
-public class ImprimirVariosRelatoriosFormatados implements AcaoRotinaJava {
+public class ImprimirVariosRelatoriosFormatadosAcao implements AcaoRotinaJava {
     JapeWrapper parceiroDAO = JapeFactory.dao("Parceiro");
     Map<BigDecimal, BigDecimal> numerosUnicosParceiros = new HashMap<>();
 
