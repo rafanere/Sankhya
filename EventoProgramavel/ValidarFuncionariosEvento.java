@@ -4,7 +4,7 @@ import br.com.sankhya.jape.event.PersistenceEvent;
 import br.com.sankhya.jape.event.TransactionContext;
 import br.com.sankhya.jape.vo.DynamicVO;
 
-public class ValidarFuncionarios implements EventoProgramavelJava {
+public class ValidarFuncionariosEvento implements EventoProgramavelJava {
     private Boolean cadastroValidado = false;
     private Integer codigoCategoria;
     private Integer codigoVinculo;

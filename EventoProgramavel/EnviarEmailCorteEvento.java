@@ -10,7 +10,7 @@ import br.com.sankhya.jape.wrapper.JapeWrapper;
 
 import java.math.BigDecimal;
 
-public class EnviarEmailCorte implements EventoProgramavelJava {
+public class EnviarEmailCorteEvento implements EventoProgramavelJava {
     // Inicializa os DAOs para acessar dados do Produto, BH_RECCOR (Corte de itens no recebimento), Vendedor (que neste caso é comprador) e Usuário
     // DAO significa Data Access Object. É um objeto para acesso ao banco de dados
     private final JapeWrapper produtoDAO = JapeFactory.dao("Produto");
